@@ -1,10 +1,10 @@
 name: 'Key Vault Get Secret'
 description: 'Get Secret from Azure Key Vault instance'
 inputs:
-  keyvault-name:
+  keyvault:
     description: 'Name of the azure key vault'
     required: true
-  secret-name:
+  secrets:
     description: 'Name of the secret to be fetched'
     required: true
 outputs:

@@ -28,4 +28,4 @@ jobs:
         cd go-sample
         docker build . -t rogoyalcontainer.azurecr.io/myimage-demo11:${{ github.sha }}
         docker push rogoyalcontainer.azurecr.io/myimage-demo11:${{ github.sha }}
-        cd ..        
+        cd ..
